@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93AE34B0BC00C8B7C28065AA /* libPods-RSAEncryption.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49075BB3318403159E2827BB /* libPods-RSAEncryption.a */; };
+		FD89FBA51EA9B33000332477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBA41EA9B33000332477 /* main.m */; };
+		FD89FBA81EA9B33000332477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBA71EA9B33000332477 /* AppDelegate.m */; };
+		FD89FBAB1EA9B33000332477 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBAA1EA9B33000332477 /* ViewController.m */; };
+		FD89FBAE1EA9B33000332477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD89FBAC1EA9B33000332477 /* Main.storyboard */; };
+		FD89FBB01EA9B33000332477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD89FBAF1EA9B33000332477 /* Assets.xcassets */; };
+		FD89FBB31EA9B33000332477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD89FBB11EA9B33000332477 /* LaunchScreen.storyboard */; };
+		FD89FBBC1EA9B46900332477 /* EncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBBB1EA9B46900332477 /* EncryptTool.m */; };
+		FD89FBEC1EA9EE3900332477 /* public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD89FBEA1EA9EE3900332477 /* public_key.pem */; };
+		FD89FBED1EA9EE3900332477 /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD89FBEB1EA9EE3900332477 /* private_key.pem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30F17390B5F4C8CD90BB330E /* Pods-RSAEncryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAEncryption.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSAEncryption/Pods-RSAEncryption.release.xcconfig"; sourceTree = "<group>"; };
+		49075BB3318403159E2827BB /* libPods-RSAEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSAEncryption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65EA6B3DEF2A0767C5FF9DE /* Pods-RSAEncryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAEncryption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSAEncryption/Pods-RSAEncryption.debug.xcconfig"; sourceTree = "<group>"; };
+		FD89FBA01EA9B33000332477 /* RSAEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD89FBA41EA9B33000332477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD89FBA61EA9B33000332477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD89FBA71EA9B33000332477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD89FBA91EA9B33000332477 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD89FBAA1EA9B33000332477 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD89FBAD1EA9B33000332477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD89FBAF1EA9B33000332477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD89FBB21EA9B33000332477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD89FBB41EA9B33000332477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD89FBBA1EA9B46900332477 /* EncryptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptTool.h; sourceTree = "<group>"; };
+		FD89FBBB1EA9B46900332477 /* EncryptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptTool.m; sourceTree = "<group>"; };
+		FD89FBEA1EA9EE3900332477 /* public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_key.pem; sourceTree = "<group>"; };
+		FD89FBEB1EA9EE3900332477 /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD89FB9D1EA9B33000332477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AE34B0BC00C8B7C28065AA /* libPods-RSAEncryption.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884BEEFB242973CA802792B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D65EA6B3DEF2A0767C5FF9DE /* Pods-RSAEncryption.debug.xcconfig */,
+				30F17390B5F4C8CD90BB330E /* Pods-RSAEncryption.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF81D047A65CA338E8495009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49075BB3318403159E2827BB /* libPods-RSAEncryption.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD89FB971EA9B33000332477 = {
+			isa = PBXGroup;
+			children = (
+				FD89FBA21EA9B33000332477 /* RSAEncryption */,
+				FD89FBA11EA9B33000332477 /* Products */,
+				884BEEFB242973CA802792B5 /* Pods */,
+				BF81D047A65CA338E8495009 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD89FBA11EA9B33000332477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FBA01EA9B33000332477 /* RSAEncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD89FBA21EA9B33000332477 /* RSAEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FBEA1EA9EE3900332477 /* public_key.pem */,
+				FD89FBEB1EA9EE3900332477 /* private_key.pem */,
+				FD89FBA61EA9B33000332477 /* AppDelegate.h */,
+				FD89FBA71EA9B33000332477 /* AppDelegate.m */,
+				FD89FBA91EA9B33000332477 /* ViewController.h */,
+				FD89FBAA1EA9B33000332477 /* ViewController.m */,
+				FD89FBBA1EA9B46900332477 /* EncryptTool.h */,
+				FD89FBBB1EA9B46900332477 /* EncryptTool.m */,
+				FD89FBAC1EA9B33000332477 /* Main.storyboard */,
+				FD89FBAF1EA9B33000332477 /* Assets.xcassets */,
+				FD89FBB11EA9B33000332477 /* LaunchScreen.storyboard */,
+				FD89FBB41EA9B33000332477 /* Info.plist */,
+				FD89FBA31EA9B33000332477 /* Supporting Files */,
+			);
+			path = RSAEncryption;
+			sourceTree = "<group>";
+		};
+		FD89FBA31EA9B33000332477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FBA41EA9B33000332477 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD89FB9F1EA9B33000332477 /* RSAEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD89FBB71EA9B33000332477 /* Build configuration list for PBXNativeTarget "RSAEncryption" */;
+			buildPhases = (
+				70A633413BFCDB39407A001E /* 📦 Check Pods Manifest.lock */,
+				FD89FB9C1EA9B33000332477 /* Sources */,
+				FD89FB9D1EA9B33000332477 /* Frameworks */,
+				FD89FB9E1EA9B33000332477 /* Resources */,
+				D9B26F7DD8F4094DC1F74546 /* 📦 Embed Pods Frameworks */,
+				95DDDEE9A07D4BE3EE60E04B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSAEncryption;
+			productName = RSAEncryption;
+			productReference = FD89FBA01EA9B33000332477 /* RSAEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD89FB981EA9B33000332477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gaofu;
+				TargetAttributes = {
+					FD89FB9F1EA9B33000332477 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6459Z37373;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD89FB9B1EA9B33000332477 /* Build configuration list for PBXProject "RSAEncryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD89FB971EA9B33000332477;
+			productRefGroup = FD89FBA11EA9B33000332477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD89FB9F1EA9B33000332477 /* RSAEncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD89FB9E1EA9B33000332477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89FBED1EA9EE3900332477 /* private_key.pem in Resources */,
+				FD89FBB31EA9B33000332477 /* LaunchScreen.storyboard in Resources */,
+				FD89FBEC1EA9EE3900332477 /* public_key.pem in Resources */,
+				FD89FBB01EA9B33000332477 /* Assets.xcassets in Resources */,
+				FD89FBAE1EA9B33000332477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70A633413BFCDB39407A001E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95DDDEE9A07D4BE3EE60E04B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAEncryption/Pods-RSAEncryption-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B26F7DD8F4094DC1F74546 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAEncryption/Pods-RSAEncryption-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD89FB9C1EA9B33000332477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89FBAB1EA9B33000332477 /* ViewController.m in Sources */,
+				FD89FBA81EA9B33000332477 /* AppDelegate.m in Sources */,
+				FD89FBA51EA9B33000332477 /* main.m in Sources */,
+				FD89FBBC1EA9B46900332477 /* EncryptTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD89FBAC1EA9B33000332477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD89FBAD1EA9B33000332477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD89FBB11EA9B33000332477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD89FBB21EA9B33000332477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD89FBB51EA9B33000332477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD89FBB61EA9B33000332477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD89FBB81EA9B33000332477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65EA6B3DEF2A0767C5FF9DE /* Pods-RSAEncryption.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6459Z37373;
+				INFOPLIST_FILE = RSAEncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siruijk.com.RSAEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD89FBB91EA9B33000332477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F17390B5F4C8CD90BB330E /* Pods-RSAEncryption.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6459Z37373;
+				INFOPLIST_FILE = RSAEncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siruijk.com.RSAEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD89FB9B1EA9B33000332477 /* Build configuration list for PBXProject "RSAEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD89FBB51EA9B33000332477 /* Debug */,
+				FD89FBB61EA9B33000332477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD89FBB71EA9B33000332477 /* Build configuration list for PBXNativeTarget "RSAEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD89FBB81EA9B33000332477 /* Debug */,
+				FD89FBB91EA9B33000332477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD89FB981EA9B33000332477 /* Project object */;
+}
