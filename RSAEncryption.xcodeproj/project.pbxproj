@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93AE34B0BC00C8B7C28065AA /* libPods-RSAEncryption.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49075BB3318403159E2827BB /* libPods-RSAEncryption.a */; };
+		FD492D811ED412400046C40D /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD492D801ED412400046C40D /* RSAEncryptor.m */; };
 		FD89FBA51EA9B33000332477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBA41EA9B33000332477 /* main.m */; };
 		FD89FBA81EA9B33000332477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBA71EA9B33000332477 /* AppDelegate.m */; };
 		FD89FBAB1EA9B33000332477 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FBAA1EA9B33000332477 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		30F17390B5F4C8CD90BB330E /* Pods-RSAEncryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAEncryption.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSAEncryption/Pods-RSAEncryption.release.xcconfig"; sourceTree = "<group>"; };
 		49075BB3318403159E2827BB /* libPods-RSAEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSAEncryption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65EA6B3DEF2A0767C5FF9DE /* Pods-RSAEncryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAEncryption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSAEncryption/Pods-RSAEncryption.debug.xcconfig"; sourceTree = "<group>"; };
+		FD492D7F1ED412400046C40D /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		FD492D801ED412400046C40D /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
 		FD89FBA01EA9B33000332477 /* RSAEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD89FBA41EA9B33000332477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD89FBA61EA9B33000332477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				FD89FBAA1EA9B33000332477 /* ViewController.m */,
 				FD89FBBA1EA9B46900332477 /* EncryptTool.h */,
 				FD89FBBB1EA9B46900332477 /* EncryptTool.m */,
+				FD492D7F1ED412400046C40D /* RSAEncryptor.h */,
+				FD492D801ED412400046C40D /* RSAEncryptor.m */,
 				FD89FBAC1EA9B33000332477 /* Main.storyboard */,
 				FD89FBAF1EA9B33000332477 /* Assets.xcassets */,
 				FD89FBB11EA9B33000332477 /* LaunchScreen.storyboard */,
@@ -243,6 +248,7 @@
 				FD89FBA81EA9B33000332477 /* AppDelegate.m in Sources */,
 				FD89FBA51EA9B33000332477 /* main.m in Sources */,
 				FD89FBBC1EA9B46900332477 /* EncryptTool.m in Sources */,
+				FD492D811ED412400046C40D /* RSAEncryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

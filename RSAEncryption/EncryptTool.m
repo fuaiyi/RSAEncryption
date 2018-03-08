@@ -242,7 +242,7 @@ typedef NS_ENUM(NSUInteger, RSAPaddingType)
 //3.1实现中文兼容和分段加密
 - (NSString *)encrypt:(NSString *)content type:(KeyType)type
 {
-    content = content.URLEncode;
+//    content = content.URLEncode;
     NSMutableString *encryptContent = @"".mutableCopy;
     for (NSInteger i = 0; i < ceilf(content.length / 117.0); i ++)
     {
@@ -257,15 +257,15 @@ typedef NS_ENUM(NSUInteger, RSAPaddingType)
 - (NSString *)decrypt:(NSString *)content type:(KeyType)type
 {
     NSMutableString *decryptResult = @"".mutableCopy;
-    for (NSInteger i = 0; i < ceilf(content.length / 172); i ++)
+    for (NSInteger i = 0; i < ceilf(content.length / 117.0); i ++)
     {
-        NSString *subStr = [content substringWithRange:NSMakeRange(i * 172, 172)];
+        NSString *subStr = [content substringWithRange:NSMakeRange(i * 117, 117)];
         NSString *decryptSubStr = [self decryptToData:subStr type:type];
         NSString *decryptStr = decryptSubStr.length <= 117 ? decryptSubStr : [decryptSubStr substringToIndex:117];
         [decryptResult appendString:decryptStr];
     }
-    
-    return decryptResult.URLDecode;
+    return decryptResult;
+//    return decryptResult.URLDecode;
 }
 
 
